@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>Root 6030</p>
+    <p class="fa fa-fw fa-at"></p>root6030@gmail.com<br>
+    <p class="fa fa-fw fa-phone"></p>+353 87 799 1165
+    <hr>
+    <!--Some example how form is working sending requested fields to users email-->
+    <form action="mailto:senadziljkic@yahoo.ie" method="post" enctype="text/plain"><!--creating form with different options that will required javascript-->
+        <label>Your Name:</label><!--email can be specified or left empty to type in but all should work in background-->
+        <input type="text" name="Your Name"><br>
+        <label>Do You Want To Sign Up to our email list?</label>
+        <input type="checkbox" name="Do You Want to sign to email list"><br>
+        <label>Your Email</label>
+        <input type="email" name="Your Email"><br>
+        <label>Your Message</label><br>
+        <textarea name="Your Message" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
